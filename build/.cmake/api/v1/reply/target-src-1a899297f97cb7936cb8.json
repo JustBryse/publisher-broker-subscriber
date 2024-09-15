@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "tests/run_tests"
+			"path" : "src/src"
 		}
 	],
 	"backtrace" : 1,
@@ -11,12 +11,11 @@
 		"commands" : 
 		[
 			"add_executable",
-			"target_link_libraries",
 			"include_directories"
 		],
 		"files" : 
 		[
-			"tests/CMakeLists.txt"
+			"src/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -26,17 +25,11 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 8,
+				"line" : 5,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
-				"file" : 0,
-				"line" : 9,
-				"parent" : 0
-			},
-			{
-				"command" : 2,
 				"file" : 0,
 				"line" : 1,
 				"parent" : 0
@@ -49,22 +42,14 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"backtrace" : 2,
-					"fragment" : "-DGTEST_HAS_PTHREAD=1"
-				},
-				{
 					"fragment" : "-std=gnu++20"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 3,
-					"path" : "/home/bryson/projects/c++/cpp-template/inc"
-				},
-				{
-					"backtrace" : 3,
-					"path" : "/home/bryson/projects/c++/cpp-template/src"
+					"backtrace" : 2,
+					"path" : "/home/bryson/projects/c++/publisher-subscriber/inc"
 				}
 			],
 			"language" : "CXX",
@@ -72,18 +57,20 @@
 			{
 				"backtraces" : 
 				[
-					2
+					1
 				],
 				"standard" : "20"
 			},
 			"sourceIndexes" : 
 			[
-				1,
-				2
+				6,
+				7,
+				8,
+				9
 			]
 		}
 	],
-	"id" : "run_tests::@a44f0ac069e85531cdee",
+	"id" : "src::@145eef247bfb46b6828c",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -91,34 +78,16 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libgtest_main.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libgmock_main.a",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libgmock.a",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libgtest.a",
-				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
-	"name" : "run_tests",
-	"nameOnDisk" : "run_tests",
+	"name" : "src",
+	"nameOnDisk" : "src",
 	"paths" : 
 	{
-		"build" : "tests",
-		"source" : "tests"
+		"build" : "src",
+		"source" : "src"
 	},
 	"sourceGroups" : 
 	[
@@ -126,15 +95,22 @@
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
 			]
 		},
 		{
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				1,
-				2
+				6,
+				7,
+				8,
+				9
 			]
 		}
 	],
@@ -142,19 +118,56 @@
 	[
 		{
 			"backtrace" : 1,
-			"path" : "inc/shape.h",
+			"path" : "inc/broker.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "inc/consumer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "inc/exchange.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "inc/publisher.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "inc/subscriber.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "inc/supplier.h",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/shape.cpp",
+			"path" : "src/consumer.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "tests/shape_tests.cpp",
+			"path" : "src/exchange.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/supplier.cpp",
 			"sourceGroupIndex" : 1
 		}
 	],

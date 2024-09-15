@@ -513,8 +513,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/bryson/projects/c++/cpp-template/build",
-		"source" : "/home/bryson/projects/c++/cpp-template"
+		"build" : "/home/bryson/projects/c++/publisher-subscriber/build",
+		"source" : "/home/bryson/projects/c++/publisher-subscriber"
 	},
 	"version" : 
 	{

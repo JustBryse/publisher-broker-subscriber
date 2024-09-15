@@ -341,14 +341,14 @@
 				{
 					"directoryIndex" : 3,
 					"id" : "run_tests::@a44f0ac069e85531cdee",
-					"jsonFile" : "target-run_tests-944e2cc9cb183942dd01.json",
+					"jsonFile" : "target-run_tests-7cacc8c036af372dcc84.json",
 					"name" : "run_tests",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "src::@145eef247bfb46b6828c",
-					"jsonFile" : "target-src-0b73315562dd89db24c1.json",
+					"jsonFile" : "target-src-1a899297f97cb7936cb8.json",
 					"name" : "src",
 					"projectIndex" : 0
 				}
@@ -358,8 +358,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/bryson/projects/c++/cpp-template/build",
-		"source" : "/home/bryson/projects/c++/cpp-template"
+		"build" : "/home/bryson/projects/c++/publisher-subscriber/build",
+		"source" : "/home/bryson/projects/c++/publisher-subscriber"
 	},
 	"version" : 
 	{

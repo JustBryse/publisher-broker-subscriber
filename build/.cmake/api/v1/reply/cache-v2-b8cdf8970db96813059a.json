@@ -67,7 +67,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/bryson/projects/c++/cpp-template/build"
+			"value" : "/home/bryson/projects/c++/publisher-subscriber/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -507,7 +507,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/bryson/projects/c++/cpp-template"
+			"value" : "/home/bryson/projects/c++/publisher-subscriber"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1227,7 +1227,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/bryson/projects/c++/cpp-template/build"
+			"value" : "/home/bryson/projects/c++/publisher-subscriber/build"
 		},
 		{
 			"name" : "cpp-template_IS_TOP_LEVEL",
@@ -1251,7 +1251,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/bryson/projects/c++/cpp-template"
+			"value" : "/home/bryson/projects/c++/publisher-subscriber"
 		}
 	],
 	"kind" : "cache",
