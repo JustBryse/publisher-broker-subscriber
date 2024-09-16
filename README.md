@@ -7,7 +7,7 @@
     * make
 * Run Instructions:
     * cd build
-    * make ./main/main
+    * make ./src/pub_bro_sub
 * Testing Instructions:
     * cd build
     * make test

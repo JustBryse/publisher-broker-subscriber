@@ -63,7 +63,7 @@
 					"source" : "src",
 					"targetIndexes" : 
 					[
-						29
+						28
 					]
 				},
 				{
@@ -89,7 +89,7 @@
 					"source" : "tests",
 					"targetIndexes" : 
 					[
-						28
+						29
 					]
 				}
 			],
@@ -339,17 +339,17 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 1,
+					"id" : "pub_bro_sub::@145eef247bfb46b6828c",
+					"jsonFile" : "target-pub_bro_sub-cce5b4f894351b87fb28.json",
+					"name" : "pub_bro_sub",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 3,
 					"id" : "run_tests::@a44f0ac069e85531cdee",
 					"jsonFile" : "target-run_tests-7cacc8c036af372dcc84.json",
 					"name" : "run_tests",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 1,
-					"id" : "src::@145eef247bfb46b6828c",
-					"jsonFile" : "target-src-1a899297f97cb7936cb8.json",
-					"name" : "src",
 					"projectIndex" : 0
 				}
 			]
